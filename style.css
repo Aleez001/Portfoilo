@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@100&family=Righteous&family=Roboto:wght@100&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page-one {
+    height: 100vh;
+}
+
+.navigation nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.navigation nav ul h3 {
+    font-size: 30px;
+    position: relative;
+    left: 149px;
+    top: 18px;
+}
+
+.navigation nav ul li {
+    position: relative;
+    left: 520px;
+    margin: 30px;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.section-one {
+    position: relative;
+    top: 44px;
+    left: 610px;
+    display: inline-block;
+}
+
+.section-one h5 {
+    position: relative;
+    top: 12px;
+    left: 23px;
+    color: #636973;
+}
+
+.section-one h3 {
+    position: relative;
+    bottom: 13px;
+    right: 34px;
+    letter-spacing: 2px;
+    color: #636973;
+}
+
+.button-section-one {
+    display: flex;
+    font-size: 13px;
+    gap: 16px;
+    font-weight: 900;
+    position: relative;
+    right: 43px;
+    top: 3px;
+}
+
+.button-section-one .btn-1 {
+    background: beige;
+    padding: 13px;
+
+    border-radius: 17px;
+}
+
+.button-section-one .btn-2 {
+    background: #000;
+    padding: 13px;
+    color: #fff;
+    border-radius: 17px;
+}
+
+.section-one .img-1 img {
+    max-width: 42px;
+    position: relative;
+    top: 12px;
+    right: -27px;
+}
+
+.section-one .img-2 img {
+    max-width: 42px;
+    position: relative;
+    top: -33px;
+    right: -84px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(236deg) brightness(104%) contrast(104%);
+}
+
+.firstimg {
+    display: inline;
+}
+
+.firstimg img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+    left: 230px;
+    top: 55px;
+}
+
+.About {
+
+    height: 100vh;
+}
+
+.heading {
+    margin-left: 592px;
+}
+
+.heading h4 {
+    position: relative;
+    top: 6px;
+    letter-spacing: 2px;
+    color: #636973;
+}
+
+.heading h1 {
+    padding: 23px;
+    font-weight: 900;
+    font-size: 45px;
+    position: relative;
+    right: 40px;
+}
+
+.imgncon {
+    display: flex;
+}
+
+.aboutimg {
+    position: relative;
+    left: 12px;
+
+}
+
+.aboutimg img {
+    border-radius: 58px;
+}
+
+.achievements {
+    display: flex;
+    position: relative;
+    left: 166px;
+    gap: 25px;
+}
+
+.achievements .experience {
+    width: 347px;
+    height: 148px;
+    border: 1px solid #636973;
+    border-radius: 18px;
+    position: relative;
+    top: 41px;
+    left: -100px;
+}
+
+.achievements .experience h3 {
+    position: relative;
+    left: 55px;
+    top: 41px;
+    display: inline-block;
+    font-size: 17px;
+}
+
+.achievements .experience h4 {
+    display: inline-block;
+    position: relative;
+    top: 40px;
+    left: 120px;
+    font-size: 15px;
+    padding: 4px;
+    color: #636973;
+}
+
+.achievements .experience h5 {
+    display: inline-block;
+    position: relative;
+    top: 34px;
+    left: 89px;
+    padding: 4px;
+    color: #636973;
+}
+
+.achievements .experience img {
+    max-width: 50px;
+    position: relative;
+    left: 124px;
+    top: 24px;
+}
+
+.achievements .education {
+    width: 347px;
+    height: 148px;
+    border: 1px solid #636973;
+    border-radius: 18px;
+    position: relative;
+    top: 41px;
+    left: -100px;
+}
+
+.achievements .education h3 {
+    position: relative;
+    left: 54px;
+    top: 66px;
+    display: inline-block;
+    font-size: 17px;
+}
+
+.achievements .education h4 {
+    display: inline-block;
+    position: relative;
+    top: 66px;
+    left: 60px;
+    font-size: 15px;
+    padding: 4px;
+    color: #636973;
+}
+
+.achievements .education h5 {
+    display: inline-block;
+    position: relative;
+    top: 59px;
+    left: 115px;
+    padding: 4px;
+    color: #636973;
+}
+
+.achievements .education img {
+    max-width: 54px;
+    position: relative;
+    left: 124px;
+    top: 41px;
+}
+
+.achieventext {
+    width: 50%;
+}
+
+.txt-2 {
+    width: 50%;
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    margin-top: 72px;
+    left: 508px;
+    text-align: justify;
+}
+
+/*********************************section 3 Styling **********************************************/
+.experience{
+    height: 100vh;
+}
+.exph{
+    position: relative;
+    left: 45%;
+    display: inline-block;
+    top: -65px;
+}
+.exph h4{
+    position: relative;
+    left: 25px;
+    top: 18px;
+    color:#636973;
+    font-size: 15px;
+}
+.exph h1{
+    position: relative;
+    right: 19px;
+    top: 7px;
+    font-weight: 800;
+}
+.expimg{
+    display: inline-flex;
+    position: relative;
+    top: 281px;
+    gap: 297px;
+}
+.expimg img{
+    max-width: 140px;
+}
+.expimg .img-exp-3{
+    position: relative;
+    top: 51px;
+}
+.expcont{
+    display: inline-flex;
+    position: relative;
+    gap: 336px;
+    top: 287px;
+    left: 204px;
+    color:#636973;
+    font-size: 15px;
+}
+/*********************************Section 4 Styling **********************************************/
+.contactme{
+height: 100vh;
+}
+.heading-contactme{
+    display: inline-block;
+    position: relative;
+    left: 43%;
+    top: 148px;
+}
+.btn-contactme{
+    display: inline-block;
+    position: relative;
+    top: 225px;
+    left: 30%;
+    background-color: #fff;
+    color: #636973;
+    padding-top: 15px;
+    padding-bottom: 17px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius:3px;
+    border: 1px solid #636973;
+    color: #000;
+    cursor: pointer;
+    transition: all ease 1s;
+}
+.btn-contactme:hover{
+    background-color: #636973;
+    color: #fff;
+}
+.navigation-contactme{
+    display: inline-flex;
+    position: relative;
+    top: 430px;
+}
+.navigation-contactme nav ul{
+    display: flex;
+    list-style: none;
+    margin: 23px;
+}
+.navigation-contactme nav ul li{
+    margin: 35px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.para-contactme{
+    display: inline;
+}
+.para-contactme p{
+    display: inline-block;
+    position: relative;
+    top: 500px;
+    right: 470px;
+}
+.heading-contactme h1
+{
+ position: relative;
+ display: inline-block;
+ font-size: 33px;
+ top: 15px;
+ right: -22px;
+}
+.heading-contactme h5{
+    position: relative;
+    display: inline-block;
+    top: 13px;
+    left: 71px;
+    color: #636973;
+}
